@@ -1,0 +1,20 @@
+[project]
+name = "BigONavigator"
+version = "0.2.1"
+authors = [
+  { name = "Daniel Rosel", email = "daniel@alves.world" }
+]
+description = "A Python package to track and document the computational complexity of functions."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/velocitatem/bigOnavigator"
+Documentation = "https://velocitatem.github.io/bigOnavigator"
+Source = "https://github.com/velocitatem/bigOnavigator"
+Issues = "https://github.com/velocitatem/bigOnavigator/issues"

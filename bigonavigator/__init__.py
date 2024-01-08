@@ -68,7 +68,7 @@ for complexity in Complexity:
     def decorator(func, comp=c):
         tracker[func.__name__] = comp
         def wrapper(*args, **kwargs):
-            func(*args, **kwargs)
+            return func(*args, **kwargs)
         return wrapper
     # create a copy of the decorator for each method
     O[complexity.value] = decorator

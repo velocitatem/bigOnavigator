@@ -1,6 +1,6 @@
 [project]
 name = "BigONavigator"
-version = "0.2.1"
+version = "0.2.2"
 authors = [
   { name = "Daniel Rosel", email = "daniel@alves.world" }
 ]
